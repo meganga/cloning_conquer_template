@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+.navigation {
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  background-color: #383e4c;
+}
+
+.navigation-button {
+  margin: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #383e4c;
+  color: #ffffff;
+  padding: 0px;
+  border: 1px solid #646d7c;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  width: 150px;
+  height: 55px;
+}
+
+.navigation-button:hover {
+  background-color: #54575f;
+  cursor: pointer;
+}
+
+.navigation-button:active {
+  background-color: #646d7c;
+  border: 1px dotted whitesmoke;
+  /* outline: none; */
+}
+
+.main-body-img {
+  width: 100%;
+  height: 550px;
+}
+
+.main-img {
+  position: relative;
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.text-on-main-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  text-shadow: 2px 2px black;
+}
+
+.article-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  margin: 20px;
+  width: 350px;
+  /* Why? the with attribute is not working.
+  But the min-width is. */
+  /* width: 300px; */
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.column h2 {
+  text-align: center;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.column p {
+  text-align: center;
+  padding: 10px;
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6em;
+  font-weight: 350;
+}
+
+.column button {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feature-green-title-text {
+  color: #178a27;
+}
+
+.feature-blue-title-text {
+  color: #1686c1;
+}
+
+.feature-grey-title-text {
+  color: #666666;
+}
+
+.feature-green-button {
+  background-color: #178a27;
+  color: white;
+  margin-left: 100px;
+}
+.feature-green-button:hover {
+  background-color: #58b164;
+}
+
+.feature-blue-button {
+  background-color: #1686c1;
+  color: white;
+  margin-left: 100px;
+}
+
+.feature-blue-button:hover {
+  background-color: #458eb6;
+}
+
+.feature-red-button {
+  background-color: #852406;
+  color: white;
+  margin-left: 100px;
+}
+
+.feature-red-button:hover {
+  background-color: #814431;
+}
+
+.column-img {
+  border: 0;
+  width: 100%;
+  height: 200px;
+  vertical-align: middle;
+}
+
+.unspalsh-link {
+  text-decoration: none;
+  color: #1686c1;
+}
+
+.unspalsh-link:hover {
+  color: #479ac7;
+}
+
+.article-2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.article-2 img {
+  border: 0;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.article-2 div {
+  width: 550px;
+}
+
+.feature-2-white-button {
+  border: 1px solid #b1afaf;
+  background-color: white;
+  color: #333333;
+  margin-left: 200px;
+}
+
+.feature-2-white-button:hover {
+  background-color: rgb(197, 188, 188);
+  color: rgb(149, 149, 235);
+}
+
+.blog-heading-image {
+  /* position: relative; */
+  width: 100%;
+  height: 300px;
+}
+
+.blog-heading {
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+.blog-heading-text {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px#a3a5a8;
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.blog-heading-paragraph {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-size: 17px;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.blog .column {
+  width: 300px;
+}
+
+.column-heading {
+  color: #666;
+}
+
+.blog .column-img {
+  height: 300px;
+}
+
+.blog-2nd-column-button {
+  border: 1px solid #cdcdcd;
+  background-color: white;
+  margin-left: 80px;
+  color: #6d6b6b;
+}
+
+.blog-2nd-column-button:hover {
+  background-color: #c0bebe;
+  color: rgb(149, 149, 235);
+}
+
+.blog-4th-column-button {
+  border: 1px solid #cdcdcd;
+  background-color: white;
+  margin-left: 80px;
+  color: #6d6b6b;
+}
+
+.blog-4th-column-button:hover {
+  background-color: #c0bebe;
+  color: rgb(149, 149, 235);
+}
+
+.last-column {
+  margin: 50px;
+  background-color: #f2f2f2;
+  vertical-align: middle;
+  height: auto;
+}
+
+.last-column-image {
+  width: 100%;
+  height: auto;
+}
+
+.last-column-heading {
+  margin-left: 20px;
+  margin-bottom: 0;
+  color: #666666;
+}
+.last-column-text {
+  padding: 10px;
+  padding-top: 0;
+  text-align: center;
+  color: #333333;
+  line-height: 1.6em;
+  font-weight: 100;
+}
+.last-column-button {
+  border: 1px solid #cdcdcd;
+  color: rgb(112, 110, 110);
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.last-column-button:hover {
+  background-color: rgb(212, 209, 209);
+  color: rgb(149, 149, 235);
+}
+
+.contact-form-img {
+  width: 100%;
+  height: 750px;
+}
+
+.contact-form {
+  position: relative;
+}
+
+.text-on-contact-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.contact-form-heading {
+  color: snow;
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.contact-form-text {
+  margin-bottom: 5px;
+  width: 100%;
+  background-color: rgba(242, 242, 242, 0.4);
+  border-radius: 10px;
+  padding: 15px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.contact-form-input {
+  background-color: rgba(242, 242, 242, 0.4);
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+  width: 100%;
+}
+.contact-form-input::placeholder {
+  color: black;
+}
+
+#type-a-review {
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: rgba(242, 242, 242, 0.4);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#type-a-review::placeholder {
+  color: black;
+}
+
+.contact-form-send-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 90px;
+  margin-left: 40%;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 75px;
+}
+
+.contact-form-send-button:hover {
+  background-color: #666;
+  cursor: pointer;
+}
+
+.footer-heading {
+  color: #666;
+  font-style: oblique;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.footer-text {
+  color: rgb(177, 170, 170);
+  text-align: center;
+  font-size: 15px;
+}
+
+.copyright-text {
+  text-align: center;
+  font-size: 10px;
+}
