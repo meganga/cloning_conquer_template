@@ -24,9 +24,6 @@ The project is created with
 - Pakages used:
   - **Prettier**: To take care of the indentation and maintaining the structure of the code.
   - **open in browse**: To open file in a browse more easily.
-- **Stackedit**:
-  - To write and maintain the README.md file.
-    - https://stackedit.io
 
 ## Launch
 
