@@ -46,4 +46,4 @@ I created this project to deepen my understanding of **HTML** and **CSS** after 
 
 ## Github Pages
 
-- **Access the page here**: - https://meganga.github.io/portfolio_using_html_css/
+- **Access the page here**: - https://meganga.github.io/cloning_conquer_template/
